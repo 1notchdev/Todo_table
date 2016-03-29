@@ -1,0 +1,167 @@
+/* jTable light color theme - Blue
+ * Created by Halil İbrahim Kalkan
+ * http://www.jtable.org
+ */
+ 
+.side_content {
+    width: 100%;
+    padding: 10px 0px;
+    position: relative;
+    background: #78b1ed;
+}
+
+div.jtable-main-container {
+  position: relative;
+}
+
+div.jtable-busy-message {
+  cursor: wait;
+  z-index: 999;
+  position: absolute;
+  margin: 5px;
+}
+div.jtable-busy-message {
+  -webkit-text-shadow: 0 1px 0 #333333;
+  text-shadow: 0 1px 0 #333333;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 2px 2px 4px rgba(50, 51, 50, 0.75);
+  -moz-box-shadow: 2px 2px 4px rgba(50, 51, 50, 0.75);
+  box-shadow: 2px 2px 4px rgba(50, 51, 50, 0.75);
+  color: #fff;
+  border: 1px solid;
+  padding: 3px 5px 5px 27px;
+  background: url('lightblue_loading.gif') no-repeat;
+  background-position: 5px;
+}
+
+div.jtable-main-container,
+div.jtable-main-container > table.jtable > thead th,
+div.jtable-main-container > table.jtable > tbody tr {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    color: #222;
+}
+
+div.jtable-main-container div.jtable-title {
+  background: #78b1ed;
+  background: -moz-linear-gradient(top, #78b1ed 0%, #417bb5 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #78b1ed), color-stop(100%, #417bb5));
+  background: -webkit-linear-gradient(top, #78b1ed 0%, #417bb5 100%);
+  background: -o-linear-gradient(top, #78b1ed 0%, #417bb5 100%);
+  background: -ms-linear-gradient(top, #78b1ed 0%, #417bb5 100%);
+  background: linear-gradient(to bottom, #78b1ed 0%, #417bb5 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#78b1ed', endColorstr='#417bb5', GradientType=0);
+  border-color: #2B5177;
+}
+div.jtable-main-container div.jtable-title {
+  -webkit-border-radius: 3px 3px 0 0;
+  -moz-border-radius: 3px 3px 0 0;
+  border-radius: 3px 3px 0 0;
+  position: relative;
+  line-height: 34px;
+  box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.5);
+  padding-left: 10px;
+  border: 1px solid;
+}
+div.jtable-main-container div.jtable-title div.jtable-title-text {
+  font-weight: bold;
+}
+div.jtable-busy-message {
+  border-color: #2B5177;
+  background-color: #78B1ED;
+}
+
+div.jtable-main-container div.jtable-bottom-panel {
+  -webkit-border-radius: 0px 0px 3px 3px;
+  -moz-border-radius: 0px 0px 3px 3px;
+  border-radius: 0px 0px 3px 3px;
+  padding: 1px;
+  background: #fff;
+  border: 1px solid #C8C8C8;
+  border-top: none;
+  min-height: 24px;
+  line-height: 16px;
+  font-size: 0.9em;
+  position: relative;
+}
+div.jtable-main-container div.jtable-bottom-panel span.jtable-add-record a {
+  font-weight: bold;
+  text-decoration: none;
+}
+div.jtable-main-container div.jtable-bottom-panel span.jtable-add-record a {
+  color: #2B5177;
+}
+
+div.jtable-main-container div.jtable-title div.jtable-toolbar span.jtable-toolbar-item.jtable-toolbar-item-add-record span.jtable-toolbar-item-icon {
+    background-image: url('add.png');
+}
+div.jtable-main-container table.jtable thead {
+    background: url('bg-thead.png') repeat-x scroll top left #dddddd;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #C8C8C8;
+}
+div.jtable-main-container table.jtable thead th {
+  padding: 4px 3px 4px 6px;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #C8C8C8;
+}
+div.jtable-main-container table.jtable thead th:first-child {
+  border-left: none;
+}
+div.jtable-main-container table.jtable thead thth:last-child {
+  border-right: none;
+}
+div.jtable-main-container table.jtable thead th.jtable-column-header div.jtable-column-header-container {
+  height: 20px;
+}
+/*div.jtable-title {
+    background-color: #9ecc52;
+    padding-left: 10px;
+    left: 0;
+    right: 0px;
+    top: 0px;
+    position: absolute !important;
+}*/
+
+.jtable {
+    font-size: 12px;
+    position: relative;
+    top: 0px;
+    /* white-space: nowrap; */
+    border: 1px solid #b1d478 !important;
+    background: #b1d478;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    border: 1px solid #417bb5;
+    background: #78b1ed;
+    font-weight: bold;
+    color: #fff;
+}
+.ui-widget-header {
+    border: 1px solid #417bb5;
+    background: #78b1ed;
+    color: #ffffff;
+    font-weight: bold;
+}
+.ui-widget-content {
+    border: 1px solid #417bb5;
+    background: #fcfdfd url(images/ui-bg_inset-hard_100_fcfdfd_1x100.png) 50% bottom repeat-x;
+    color: #222222;
+}
+
+.my-custom-theme {
+    border-radius: 5px;
+    background: rgba(65, 123, 181,0.9);
+/*    background: rgba(100,137,40,0.9);*/
+    color: #fff;
+    max-width:300px;
+    min-width: 200px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+div#TableContainer {
+  position: relative;
+  padding: 0px;
+}

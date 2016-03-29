@@ -1,0 +1,103 @@
+.jtable{
+    font-size: 12px;
+    position: relative;
+    top: 0px;
+    /*white-space: nowrap;*/
+    border: 1px solid #b1d478 !important;
+    background: #b1d478;
+}
+
+div.jtable-main-container > div.jtable-title {
+  background-color: #9ecc52;
+  padding-left: 10px;
+}
+
+div.jtable-main-container > div.jtable-bottom-panel .jtable-page-list .jtable-page-number,
+div.jtable-main-container > div.jtable-bottom-panel .jtable-page-list .jtable-page-number-space,
+div.jtable-main-container > div.jtable-bottom-panel .jtable-page-list .jtable-page-number-first,
+div.jtable-main-container > div.jtable-bottom-panel .jtable-page-list .jtable-page-number-last,
+div.jtable-main-container > div.jtable-bottom-panel .jtable-page-list .jtable-page-number-previous,
+div.jtable-main-container > div.jtable-bottom-panel .jtable-page-list .jtable-page-number-next,
+div.jtable-main-container > div.jtable-bottom-panel .jtable-page-list .jtable-page-number-active {
+  background-color: #9ecc52;
+  margin: 1px;
+  padding: 2px 5px;
+  color: #fff;
+}
+
+div#top_nav ul li a:hover{
+    color: #9ecc52;
+    text-decoration: underline;
+}
+
+div.jtable-title {
+	background-color: #9ecc52;
+	padding-left: 10px;
+	left: 0;
+	right: 0px;
+	top: 0px;
+	position: absolute !important;
+}
+
+div.jtable-main-container > table.jtable > thead {
+  background-color: #b1d478;
+}
+
+div.jtable-main-container > div.jtable-bottom-panel {
+  background-color: #b1d478;
+  color: #fff;
+  min-height: 22.900000000000002px;
+  font-size: 13px;
+  border: 1px solid #b1d478;
+  border-top: none;
+}
+
+.side_content{
+	width: 100%;
+    padding: 10px 0px;
+    position: relative;
+    background: #b1d478;
+}
+
+#table_header{
+    width: 100%;
+    height: 27px;
+    position: absolute;
+    z-index: 999;
+    top: 34px;
+    background: #b1d478;
+}
+
+.ui-widget-content { border: 1px solid #9ecc52; background: #fcfdfd url(images/ui-bg_inset-hard_100_fcfdfd_1x100.png) 50% bottom repeat-x; color: #222222; }
+.ui-widget-header { border: 1px solid #9ecc52; background: #b1d478; color: #ffffff; font-weight: bold; }
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default { border: 1px solid #9ecc52; background: #b1d478; font-weight: bold; color: #fff; }
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus { border: 1px solid #9ecc52; background: #9ecc52; font-weight: bold; color: #fff; }
+
+/* This is the default Tooltipster theme (feel free to modify or duplicate and create multiple themes!): */
+.tooltipster-default {
+	border-radius: 5px; 
+	border: 2px solid #000;
+	background: #4c4c4c;
+	color: #fff;
+}
+
+.my-custom-theme {
+    border-radius: 5px; 
+    background: rgba(100,137,40,0.9);
+    color: #fff;
+    max-width:300px;
+    min-width: 200px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+
+div.jtable-busy-message {
+  font-family: 'Segoe UI Semilight', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  border: 1px solid #fff;
+  padding: 5px 5px 5px 58px;
+  color: #fff;
+  background: url('green_loading.gif') no-repeat;
+  background-color: #008100;
+  background-position: 8px;
+}
