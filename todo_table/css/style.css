@@ -1,0 +1,512 @@
+body {
+    margin: 0px 0px;
+}
+.wrapper{
+	width: 960px;
+	max-width: 960px;
+	margin: auto;
+    position: relative;
+}
+
+/*login page style*/
+
+ .ui-form1{
+    border: 2px solid #a0cc4f;
+    border-radius: 7px;
+    padding: 10px;
+    width: 350px;
+    margin: auto;
+    text-align: center;
+    height: 165px;
+    position: absolute;
+    left: 50%;
+    margin-left: -187px;
+    top: 50%;
+    margin-top: -100px;
+}
+
+.ui-form1 label {
+    font-size: 20px;
+    color: #a0cc4f;
+}
+
+.ui-form1 .ui-textbox{
+    width: 200px;
+    height: 30px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 0 5px;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.ui-form1 .btn_container{
+    text-align: right;
+    margin: 20px 25px 0 0;
+}
+
+#reg_form {
+    position: relative !important;
+    left: 0px !important;
+    top: 0px !important;
+    margin : 0 auto;
+    border: 0px;
+    width: 400px;
+    text-align: right;
+}
+
+/********************/
+.header {
+	width: 100%;
+}
+div.logo{
+	display: inline-block;
+	position: relative;
+    width: 298px;
+    height: 77px;
+}
+div.logo img{
+    width: 100%;
+    height: 100%;
+}
+    
+div.clock_container{
+    width: 300px;
+    display:inline-block;
+    margin-top: 15px;
+}
+
+div#analog-clock{
+    margin: auto;
+}
+div#analog-clock img#bg{
+    top: -3px;
+}
+div.clock{
+	display: inline-block;
+	padding-top: 10px;
+	font-size: 18px;
+    width: 100%;
+    text-align: center;         
+}
+div.clock ul {
+	margin: 0px;
+	padding: 0px;
+}
+div.clock ul li{
+	list-style: none;
+	display: inline;
+}
+div.clock #Date{
+	display: inline-block;
+}
+
+.header div#top_nav{
+    position: absolute;
+    top:20px;
+    right:0px;
+}
+div#top_nav ul{
+    margin: 0px;
+    padding: 0px;
+}
+div#top_nav ul li{
+    display: inline;
+    list-style: none;
+    border-left: 1px solid #777;
+    padding: 0 10px;
+    color: #777;
+}
+div#top_nav ul li a{
+    color: #777;
+    text-decoration: none;
+}
+
+ul li.nav_first{
+    border-left: 0px !important;
+}
+
+div.calendar_button_container{
+      position: absolute;
+      right: 0px;
+      top: 80px;
+      text-align: right;
+}
+
+div.calendar_button_container #btnGotoEvernote {
+    margin-top: 5px !important;
+}
+.container{
+    width: 100%;
+    padding: 15px 0px;
+}
+
+.side_content #side_nav {
+    /*border-left: 1px solid #777;*/
+}
+.side_content #side_nav a{
+    text-decoration: none;
+    font-size: 16px;
+    padding: 0 5px;
+    color: #fff;
+    border-right: 2px solid #fff;
+    font-weight: bold;
+}
+.side_content #side_nav a:hover{
+    
+    text-decoration: underline;
+}
+.side_content a.merge{
+    color: #f00;
+    padding: 0 5px;
+    text-decoration: none;
+    position: absolute;
+    right: 3px;
+    top: 10px;
+    font-weight: bold;
+    font-style: italic;
+}
+.side_content a.merge:hover{
+    text-decoration: underline;
+}
+.center_content{
+	width: 100%;
+    position: relative;
+}
+#PeopleTableContainer{
+	width: 100%;
+}
+
+
+div.jtable-main-container > table.jtable > tbody > tr.jtable-data-row > td{
+    position: relative;
+}
+.errorMsg{
+    color: red !important;
+    font-weight: bold;
+}
+/*#SendEmailForm {
+    display: none;
+}*/
+
+/*div#TableContainer{
+	height: 712px;
+	overflow: auto;
+}*/
+
+
+#table_header ul {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+#table_header ul li{
+    display: inline-block;
+    list-style: none;
+    border-right: 1px solid #fff;
+    padding: 0 5px;
+    line-height: 27px;
+    color: #fff;
+}
+div#TableContainer { 
+    position: relative; 
+    padding: 34px 0 24px; 
+}
+div.jtable-main-container { 
+    max-height: 655px; 
+    overflow: auto; 
+}
+
+table.jtable thead tr {
+    /*left: 0;
+	right: 0px;
+    width:100%;
+	top: 34px;
+	position: absolute;
+	background: #b1d478;*/
+    }
+
+
+
+div.jtable-main-container > div.jtable-bottom-panel {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+}
+
+.jtable-email-command-button{
+    background: url('email_icon.png') no-repeat;
+    width: 16px;
+    height: 16px;
+    opacity: 0.4;
+}
+.jtable-email-command-button:hover{
+    opacity: 0.8;
+}
+
+.jtable-dollar-command-button{
+    background: url('dollar_icon.png') no-repeat;
+    width: 16px;
+    height: 16px;
+    opacity: 0.4;
+    outline: 0px;
+}
+.jtable-dollar-command-button:hover{
+    opacity: 0.8;
+}
+
+.jtable-prioritysort-container{
+    position: absolute;
+    /* border: 1px solid red; */
+    top: 0px;
+    right: 140px;
+    line-height: 34px;
+    color: #fff;
+}
+
+.jtable-prioritysort-container #jtable-prioritysort-button{
+    background: url('color_icon.png') no-repeat;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    top: 3px;
+    position: relative;
+    border: 0px;
+    outline: 0px;
+    cursor: pointer;
+    opacity: 0.6;
+}
+.jtable-prioritysort-container #jtable-prioritysort-button:hover{
+    opacity: 1.0;
+}
+
+div.jtable-main-container table.jtable tbody tr > td .jtable-more-command-button{
+    position: absolute;
+    top: 50%;
+    margin-top: -8px !important;
+    right: 5px;
+    background: url('more_icon.png') no-repeat;
+    width: 16px;
+    height: 16px;
+    opacity: 0.4;
+    display: none;
+}
+div.jtable-main-container table.jtable tbody tr > td .jtable-more-command-button:hover{
+    opacity: 0.8;
+}
+
+
+#reciever{
+	width: 100%;
+	height: 35px;
+}
+
+.jtable-text-input input,
+.jtable-date-input input,
+.jtable-dropdown-input select{
+	width: 100%;
+	height: 35px;
+}
+.jtable-dropdown-input select{
+    
+}
+
+.validateTips { border: 1px solid transparent; padding: 0.3em; }
+.ui-dialog .ui-state-error { padding: .3em; }
+
+.filter-table{
+    position: absolute;
+    top: 3px;
+    left: 370px;
+    margin: 0px;
+}
+.filter-table>input{
+    width: 250px;
+    height: 30px;
+    border: 0px;
+    border-radius: 15px;
+    padding: 0px 5px;
+    outline: none;
+    text-align: center;
+}
+
+#btnCalendarView .ui-icon-calendar {
+    background: url(../images/calendar.png) top left no-repeat;
+    background-size: 100% 100%;
+}
+
+#CalendarViewForm {
+    height: 700px !important;
+}
+
+.jtable-row-click1{
+    background: #F00 !important;
+}
+.jtable-row-click2{
+    background: #FF0 !important;
+}
+.jtable-row-click3{
+    background: #0F0 !important;
+}
+.alt {
+    background: rgba(255, 173, 0, 0.81);
+    color: #fff;
+}
+
+/*#tooltip{
+    position: absolute;
+    background-color: #000;
+    opacity: 0.9;
+    background: rgba(100,137,40,0.9);
+    padding:10px;
+    border-radius: 10px;
+    color: white;
+    z-index: 99999;
+    max-width:300px;
+    box-shadow: 5px 5px 5px #999;
+}*/
+
+
+/* Use this next selector to style things like font-size and line-height: */
+.my-custom-theme .tooltipster-content {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 8px 10px;
+}
+.nobmargin {
+    margin-bottom: 0px;
+}
+.nomargin {
+    margin: 0px;
+}
+
+#MoreTextContainer{
+    border: 0px;
+    resize: none;
+    width: 100%;
+    height: 96%;
+    min-height: 200px;
+    max-height: 450px;
+}
+
+#MoreTextContainer:focus {
+    outline: 0px;
+}
+
+div.ui-grid-a div.ui-block-a,
+div.ui-grid-a div.ui-block-b{
+    width:50%;
+    float:left;
+}
+
+.ui-left-align{
+    text-align: left;
+}
+
+.ui-center-align{
+    text-align: center;
+}
+
+.ui-right-align{
+    text-align: right;
+}
+
+div#invoice_owner_info,
+div#invoice_customer_info{
+    margin: 10px;
+}
+div#invoice_customer_info{
+    margin-top: 40px;
+}
+div#invoice_owner_info p,
+div#invoice_customer_info p{
+    margin: 2px 0px;
+    font-size: 14px;
+    color: #111;
+}
+
+div#table_invoice_result {
+    border: 1px solid #111;
+    border-bottom: 0px solid #111;
+    float: right;
+    font-size: 14px;
+    line-height: 25px;
+    width: 300px;
+}
+div#table_invoice_result .ui-block-a{
+    background: #aaa;
+    text-align: left;
+    border-bottom : 1px solid #111;
+    height: 25px;
+    width: 49%;
+    padding-left: 1%;
+}
+div#table_invoice_result .ui-block-b{
+    float:right;
+    background: #fff;
+    text-align: right;
+    border-bottom : 1px solid #111;
+    height: 25px;
+    width: 49%;
+    padding-right: 1%;
+}
+
+div.ui-dotline{
+    width: 100%;
+    margin: 30px 0;
+    border-bottom: 1px dotted #111;
+    clear: both;
+    float: left;
+}
+div#table_invoice_details table{
+    width: 100%;
+    border: 1px solid #222;
+    min-height: 80px;
+}
+
+div#table_invoice_details table thead tr th{
+    text-align: center;
+    background: #aaa;
+    height: 30px;
+    border: 1px solid #222;
+    font-size: 14px;
+    line-height: 29px;
+}
+
+div#table_invoice_details table tbody tr{
+    height: 25px;
+    line-height: 25px;
+    font-size: 14px;
+    vertical-align: top;
+}
+
+div#table_invoice_details table#table_invoice_item{
+    height: 200px;
+}
+div#table_invoice_details table#table_invoice_item tbody{
+    height: 150px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+select,
+.dropdown{
+    margin-bottom: 0px;
+    display: inline-block;
+}
+
+.dropdown{
+    margin-right: 8px;
+}
+
+.dropdown ul{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
